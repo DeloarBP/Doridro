@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/rowCommentTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Comment"
+        android:textSize="25sp"
+        android:layout_weight="3"
+        android:textColor="#ffff"
+        android:paddingLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#5039e4"/>
+
+    <TextView
+        android:id="@+id/rowCommentMenuTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:layout_marginLeft="2dp"
+        android:background="#110368"
+        android:text="@string/row_menu"/>
+
+</LinearLayout>

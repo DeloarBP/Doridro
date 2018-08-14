@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#f7eaea">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Admin Panel"
+        android:textSize="20sp"
+        android:background="#ab0159"
+        android:textColor="#ffff"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/userListBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="User List"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:layout_marginRight="2dp"
+            android:background="#c26cf4"
+            />
+        <Button
+            android:id="@+id/pendingApprovalBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Pending approval"
+            android:textSize="18sp"
+            android:textColor="#ffff"
+            android:background="#5356f7"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="Catagory"
+        android:background="#0c6854"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/catagorySP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="Relese Year"
+        android:background="#0c6854"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/releseYearSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:hint="Description"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#ffff"
+        android:textSize="20sp"
+        android:padding="2dp"/>
+
+    <Button
+        android:id="@+id/saveAdminBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Save"
+        android:textStyle="bold"
+        android:background="#179b06"
+        android:textColor="#ffff"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>
